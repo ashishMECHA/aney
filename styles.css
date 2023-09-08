@@ -800,8 +800,8 @@ textarea {
     .content_wrapper{
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        margin-top: 1rem;
+        gap: 2rem;
+        margin-top: 2.5rem;
     }
     .left_content{
         width: 100%;
@@ -809,7 +809,7 @@ textarea {
     .right_content{
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 15rem;
         height: 18rem;
     }
     .below_header2{
@@ -824,6 +824,14 @@ textarea {
     .text_cont2{
         padding-left: 0;
         margin-bottom: 3rem;
+    
+    }
+    .text_cont p{
+        font-size: 14px;
+    }
+    .text_cont2 p{
+        font-size: 14px;
+
     
     }
     .bgimg_text{
@@ -846,7 +854,7 @@ textarea {
     .bold{
         font-family: "Poppins";
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height:1.1;
         margin-bottom: 1.5rem;
     }
@@ -871,4 +879,95 @@ textarea {
     .heading{
         font-size: 2rem;
     }
+    .below_header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+        margin-bottom:1rem ;
+    }
+    .below_header p{
+        color: #3b3945;
+        font-weight: 600;
+        line-height: 1.1;
+        text-align: center;
+        font-size: .6rem;
+    }
+    .below_header img{
+        width:5rem;
+    }
+    .below_header div{
+        width:6rem;
+    }
+    .main_text{
+       
+        font-size: 2.4rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+     line-height: 1.1;
+    }
+    .main_text2{
+        
+        text-align: center;
+        font-size: 15px;
+        /* margin-top: 2rem;
+        margin-bottom: .5rem; 
+        color: #ffffff; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+    .main_text3{
+        text-align: center;
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #buttons{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+
+    }
+    .main_text_a{
+        font-size: 2.4rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+     line-height: 1.1;
+    }
+    .main_text2_b{
+        text-align: center;
+        font-size: 15px;
+        /* margin-top: 2rem;
+        margin-bottom: .5rem; 
+        color: #ffffff; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .main_text3_c{
+        text-align: center;
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .about{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 15px;
+    }
+    .how_it_works {
+       
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    
+    
 }
